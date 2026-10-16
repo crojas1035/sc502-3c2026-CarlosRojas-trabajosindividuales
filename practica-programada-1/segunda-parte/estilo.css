@@ -1,0 +1,146 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+}
+
+nav {
+    background-color: #1e6091;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #90e0ef;
+}
+
+#inicio, #servicios, #contacto {
+    background-color: white;
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+#inicio h1, #servicios h2, #contacto h2 {
+    color: #1e6091;
+}
+
+#servicios ul {
+    text-align: left;
+    display: inline-block;
+}
+
+#servicios li {
+    margin: 10px 0;
+}
+
+#perfil {
+    background-color: white;
+    margin: 40px auto;
+    padding: 30px;
+    width: 70%;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.nombre-doctor {
+    color: #1e6091;
+    font-size: 32px;
+}
+
+.especialidad {
+    color: #468faf;
+    font-size: 22px;
+}
+
+#descripcion {
+    color: #444444;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.boton-cita {
+    display: inline-block;
+    background-color: #1e6091;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+.boton-cita:hover {
+    background-color: #144870;
+}
+
+#comentarios {
+    width: 85%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#comentarios h2 {
+    color: #1e6091;
+}
+
+#tarjetas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjeta {
+    background-color: white;
+    width: 30%;
+    border: 1px solid #cccccc;
+    margin: 10px;
+    padding: 20px;
+}
+
+.tarjeta h3 {
+    color: #1e6091;
+}
+
+.tarjeta p {
+    color: #444444;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #inicio, #servicios, #perfil, #contacto {
+        width: 85%;
+        padding: 15px;
+    }
+
+    .nombre-doctor {
+        font-size: 26px;
+    }
+
+    #tarjetas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjeta {
+        width: 85%;
+        box-sizing: border-box;
+    }
+}
+
+
+
+
