@@ -1,0 +1,31 @@
+ESTADO DE CUENTA
+
+DETALLE DE TRANSACCIONES
+
+ID: 1
+Descripcion: Compra de supermercado
+Monto: 10000
+
+ID: 2
+Descripcion: Compra de ropa
+Monto: 20000
+
+ID: 3
+Descripcion: Compra de gasolina
+Monto: 30000
+
+ID: 4
+Descripcion: Compra de comida
+Monto: 40000
+
+ID: 5
+Descripcion: Compra de medicamentos
+Monto: 50000
+
+RESUMEN DEL ESTADO DE CUENTA
+
+Total de contado: 150000
+Interes del 2.6%: 3900
+Total con intereses: 153900
+Cashback del 0.1%: 150
+Monto final a pagar: 153750
